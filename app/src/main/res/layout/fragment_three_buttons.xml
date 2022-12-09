@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/threeButtons"
+    android:layout_width="176dp"
+    android:layout_height="30dp">
+
+    <include
+        layout="@layout/full_screen_view"
+        android:id="@+id/fullScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"/>
+
+    <include
+        layout="@layout/item_start"
+        android:id="@+id/startOrPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <include
+        layout="@layout/reset_view"
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical" />
+
+</FrameLayout>

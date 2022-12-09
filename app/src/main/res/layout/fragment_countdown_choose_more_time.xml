@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="245dp"
+    android:layout_height="155dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/back_selector"/>
+
+    <include layout="@layout/time_picker_view"
+        android:id="@+id/timePickerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/startBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/start_selector"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="centerInside"/>
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/recyclerViewMinute"-->
+    <!--            android:layout_width="49dp"-->
+    <!--            android:layout_height="204dp"-->
+    <!--            android:layout_marginLeft="229dp"-->
+    <!--            android:layout_marginTop="29dp"-->
+    <!--            android:layout_marginRight="362dp"-->
+    <!--            android:layout_marginBottom="123dp"-->
+    <!--            android:requiresFadingEdge="vertical"-->
+    <!--            android:fadingEdgeLength="120dp"/>-->
+    <!--        &lt;!&ndash; requiresFadingEdge设置边缘变淡效果，vertical表示垂直方向变淡。-->
+    <!--             fadingEdgeLength设置边框渐变的长度 &ndash;&gt;-->
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/recyclerViewSecond"-->
+    <!--            android:layout_width="49dp"-->
+    <!--            android:layout_height="204dp"-->
+    <!--            android:layout_marginLeft="361dp"-->
+    <!--            android:layout_marginTop="29dp"-->
+    <!--            android:layout_marginRight="230dp"-->
+    <!--            android:layout_marginBottom="123dp"-->
+    <!--            android:requiresFadingEdge="vertical"-->
+    <!--            android:fadingEdgeLength="120dp"/>-->
+
+
+    <!--        <TextView-->
+    <!--            android:layout_width="40dp"-->
+    <!--            android:layout_height="30dp"-->
+    <!--            android:layout_marginLeft="289dp"-->
+    <!--            android:layout_marginTop="125dp"-->
+    <!--            android:layout_marginRight="311dp"-->
+    <!--            android:layout_marginBottom="201dp"-->
+    <!--            android:text="分"-->
+    <!--            android:textSize="20sp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="20dp"-->
+    <!--            android:layout_height="30dp"-->
+    <!--            android:layout_marginLeft="426dp"-->
+    <!--            android:layout_marginTop="125dp"-->
+    <!--            android:layout_marginRight="194dp"-->
+    <!--            android:layout_marginBottom="201dp"-->
+    <!--            android:text="秒"-->
+    <!--            android:textSize="20sp"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="58.67dp"-->
+    <!--            android:layout_height="58.67dp"-->
+    <!--            android:layout_marginLeft="290.67dp"-->
+    <!--            android:layout_marginTop="254.67dp"-->
+    <!--            android:layout_marginRight="290.67dp"-->
+    <!--            android:layout_marginBottom="42.67dp"-->
+    <!--            android:src="@drawable/start_pause_background" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="17.07dp"-->
+    <!--            android:layout_height="19.91dp"-->
+    <!--            android:layout_marginLeft="313.6dp"-->
+    <!--            android:layout_marginTop="274.04dp"-->
+    <!--            android:layout_marginRight="309.33dp"-->
+    <!--            android:layout_marginBottom="62.05dp"-->
+    <!--            android:src="@drawable/start"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="12dp"-->
+    <!--            android:layout_height="12dp"-->
+    <!--            android:layout_marginLeft="610dp"-->
+    <!--            android:layout_marginTop="125dp"-->
+    <!--            android:layout_marginRight="18dp"-->
+    <!--            android:layout_marginBottom="219dp"-->
+    <!--            android:src="@drawable/close"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="32dp"-->
+    <!--            android:layout_height="32dp"-->
+    <!--            android:layout_marginLeft="74dp"-->
+    <!--            android:layout_marginTop="29dp"-->
+    <!--            android:layout_marginRight="534dp"-->
+    <!--            android:layout_marginBottom="295dp"-->
+    <!--            android:src="@drawable/back_button"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="6.6dp"-->
+    <!--            android:layout_height="11.6dp"-->
+    <!--            android:layout_marginLeft="87.2dp"-->
+    <!--            android:layout_marginTop="39.2dp"-->
+    <!--            android:layout_marginRight="546.2dp"-->
+    <!--            android:layout_marginBottom="305.2dp"-->
+    <!--            android:src="@drawable/back"/>-->
+</FrameLayout>
+

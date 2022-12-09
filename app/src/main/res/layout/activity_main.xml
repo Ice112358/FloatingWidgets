@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chronometerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chronometer" />
+
+    <Button
+        android:id="@+id/timerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Common Timer"/>
+
+    <Button
+        android:id="@+id/spotlightBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spotlight"/>
+
+    <Button
+        android:id="@+id/countdownBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="countdown"/>
+
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove all the widgets" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="timerUI"
+        android:text="计时器UI"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toViewPager2"
+        android:text="ViewPager2基本使用" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toTabVP2"
+        android:text="ViewPager2 + TabLayout + Fragment" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/close_selector"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

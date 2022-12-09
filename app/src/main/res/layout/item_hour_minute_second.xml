@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/hourLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hourRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginLeft="26dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="52dp"/>
+
+    <TextView
+        android:id="@+id/minuteLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="64dp"/>
+
+    <TextView
+        android:id="@+id/minuteRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="116dp"/>
+
+    <TextView
+        android:id="@+id/secondLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="128dp"/>
+
+    <TextView
+        android:id="@+id/secondRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="154dp"/>
+
+</FrameLayout>

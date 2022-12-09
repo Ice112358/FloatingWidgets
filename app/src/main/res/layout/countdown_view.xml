@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <TextView
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="倒计时"
+        android:lineSpacingExtra="-2sp"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="00:00"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/startOrStopBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="开始/暂停"/>
+
+</RelativeLayout>

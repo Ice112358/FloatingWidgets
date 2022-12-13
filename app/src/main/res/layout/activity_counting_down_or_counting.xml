@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/countingDownFragment"
-        android:name="com.example.floatingtimer.timerUI.CountingDownFragment"
+        android:name="com.example.floatingwidgets.timerUI.CountingDownFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>

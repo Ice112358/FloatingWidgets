@@ -5,7 +5,7 @@
     android:layout_height="30dp">
 
     <include
-        layout="@layout/full_screen_view"
+        layout="@layout/view_full_screen"
         android:id="@+id/fullScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_gravity="center"/>
 
     <include
-        layout="@layout/reset_view"
+        layout="@layout/view_reset"
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/countdownChooseMoreTimeFragment"
-        android:name="com.example.floatingtimer.timerUI.CountdownChooseMoreTimeFragment"
+        android:name="com.example.floatingwidgets.timerUI.CountdownChooseMoreTimeFragment"
         android:label="CountdownChooseMoreTimeFragment" >
         <action
             android:id="@+id/action_countdownChooseMoreTimeFragment_to_countingDownFragment2"
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/countingDownFragment2"
-        android:name="com.example.floatingtimer.timerUI.CountingDownFragment"
+        android:name="com.example.floatingwidgets.timerUI.CountingDownFragment"
         android:label="CountingDownFragment" >
         <action
             android:id="@+id/action_countingDownFragment2_to_countdownChooseTimeFragment"
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/countdownChooseTimeFragment"
-        android:name="com.example.floatingtimer.timerUI.CountdownChooseTimeFragment"
+        android:name="com.example.floatingwidgets.timerUI.CountdownChooseTimeFragment"
         android:label="CountdownChooseTimeFragment" >
         <action
             android:id="@+id/action_countdownChooseTimeFragment_to_countdownChooseMoreTimeFragment"

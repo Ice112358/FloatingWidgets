@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.floatingtimer">
+    package="com.example.floatingwidgets">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
@@ -16,7 +16,7 @@
         android:theme="@style/Theme.FloatingTimer"
         tools:targetApi="31">
         <activity
-            android:name=".timerUI.CountingDownOrCountingActivity"
+            android:name="com.example.floatingwidgets.timerUI.CountingDownOrCountingActivity"
             android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
@@ -26,12 +26,12 @@
         </activity>
 
         <service
-            android:name=".service.FloatingWindowService"
+            android:name="com.example.floatingwidgets.service.FloatingWindowService"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.floatingwidgets.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,9 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".viewpager2.ViewPager2SimpleActivity" />
-        <activity android:name=".viewpager2.ViewPager2TabActivity" />
-        <activity android:name=".timerUI.CountdownOrTimerActivity"
+        <activity android:name="com.example.floatingwidgets.viewpager2.ViewPager2SimpleActivity" />
+        <activity android:name="com.example.floatingwidgets.viewpager2.ViewPager2TabActivity" />
+        <activity android:name="com.example.floatingwidgets.timerUI.CountdownOrTimerActivity"
             android:theme="@style/TransparentAct"/>
     </application>
 

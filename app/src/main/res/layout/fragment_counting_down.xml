@@ -12,7 +12,7 @@
 <!--        android:text="倒计时"-->
 <!--        android:textSize="9sp" />-->
 
-    <com.example.floatingtimer.timerUI.CountdownRingView
+    <com.example.floatingwidgets.timerUI.CountdownRingView
         android:id="@+id/countdownRing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

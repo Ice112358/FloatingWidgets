@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.example.floatingwidgets.timerUI.PickerView
+        android:id="@+id/minutePV"
+        android:layout_width="25dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+        android:text="分"
+        android:textSize="10sp" />
+
+
+    <com.example.floatingwidgets.timerUI.PickerView
+        android:id="@+id/secondPV"
+        android:layout_width="28dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+        android:text="秒"
+        android:textSize="10sp" />
+
+</LinearLayout>

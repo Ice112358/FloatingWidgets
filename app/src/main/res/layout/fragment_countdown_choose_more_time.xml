@@ -12,7 +12,7 @@
         android:layout_height="16dp"
         android:src="@drawable/back_selector"/>
 
-    <include layout="@layout/time_picker_view"
+    <include layout="@layout/view_time_picker"
         android:id="@+id/timePickerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
